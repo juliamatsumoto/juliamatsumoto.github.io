@@ -5,21 +5,48 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
 </head>
-<style> body {background-color:rgb(223, 247, 247);
+<style> body {
+    background-color:#f7e6e1ff;
+    font-family: 'Mukta', sans-serif;
+    color:rgb(63, 61, 61)
 }
-
+h1, h2 {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    color:  rgb(150, 130, 113);
+}
+.button {
+    color:rgb(83, 79, 79); 
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #d8ded1ff;
+    color: rgb(48, 47, 47);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+.picture {
+    border-radius: 10px;
+    ;
+}
 </style>
 <body> 
-    <h1>Portifólio Web</h1>
-    <hr>
+    <h1>PORTIFÓLIO WEB</h1>
+
 <h2>Julia Akemi Matsumoto</h2>
-<img id="#image" src="./profile.jpg" alt="Foto da Julia " width="200px">
+<img class='picture' id="#image" src="./profile.jpg" alt="Foto da Julia " width="180px">
 <!-- lista de links internos -->
-<ol><li> <a href="#apre"> Apresentação </a></li>
-<li> <a href="#hab"> Habilidades/Características </a> </li>
-<li> <a href="#blog"> Blog comportamento </a> </li>
-<li> <a href="#imagem"> Imagem </a> </li>
+<ol><li> <a class ="button" href="#apre"> Apresentação </a></li>
+<li> <a class ="button" href="#hab"> Habilidades/Características </a> </li>
+<li> <a class ="button" href="#blog"> Blog comportamento </a> </li>
+<li> <a class ="button" href="#imagem"> Imagem </a> </li>
 </ol>
 <hr>
 <!-- apresentação -->
@@ -38,11 +65,11 @@
 <hr>
 <!-- blog -->
 <br>
-<a id="#blog" href="https://mittechreview.com.br/topicos/podcast/" target="blank"> <strong>Dica de podcast </strong></a>
-<br><br>
-<a  href="http://blogjardimsecreto.com.br/" target="blank"> <strong> Sua forma de consumo te representa</strong> </a>
+<a class='botao' id="#blog" href="https://mittechreview.com.br/topicos/podcast/" target="blank"> <strong>Dica de podcast </strong></a>
+<br><br><br><br>
+<a  class='botao' href="http://blogjardimsecreto.com.br/" target="blank"> <strong> Sua forma de consumo te representa</strong> </a>
 <br><br>
 <!-- imagem -->
-<a id="#imagem" href="#image"> Imagem</a>
+<a class='button' id="#imagem" href="#image"> Imagem</a>
 </body>
 </html>
