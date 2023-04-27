@@ -1,0 +1,54 @@
+body {
+    background-color:#f7e6e1ff;
+    font-family: 'Mukta', sans-serif;
+    color:rgb(63, 61, 61)
+}
+h1 {
+    font-family: 'Staatliches', cursive;
+    text-align:left;
+    color:  rgb(40, 48, 32);
+    font-size: 37px;
+}
+.button {
+    color:rgb(83, 79, 79); 
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+
+}
+.botao {
+    padding: 15px 30px;
+    border-radius: 5px;
+    background-color: #d8ded1ff;
+    color: rgb(48, 47, 47);
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* PARTE 1 - HEADER */
+
+img {
+    border-radius: 10px;
+    position: relative;
+    border: 3px solid #d8ded1ff;
+    width: 280px; 
+    display: block;
+    margin: auto; 
+}
+h2 {
+    margin: auto;
+    position: relative;
+    font-size: 33px;
+    color:  rgb(221, 214, 206);
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+}
+.parte1 { 
+    margin:auto;
+    max-width: 35%;
+    padding: 15px;
+    background-color: rgb(123, 146, 97);
+    border-radius: 7px;
+    tex-align: center;
+}
